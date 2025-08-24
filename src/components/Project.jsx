@@ -7,11 +7,11 @@ import { SiAndroidstudio, SiApachetomcat, SiCss3, SiDart, SiDbeaver, SiEclipseid
 
 const images = [
     {
-        src: "",
-        caption: "333 333333",
-        description: "▪ 333333333",
+        src: "./Img/MusicShare/main.gif",
+        caption: "MusicShare",
+        description: "▪ 나만의 플레이리스트를 만들고, 음악을 공유하며 소통을 하는 음악SNS",
         skills: (
-            <div className="flex flex-wrap font-mono text-sm border-[1px] border-teal-500 rounded-md bg-teal-50 my-2">
+            <>
                 <div className="flex items-center px-1 w-auto"><FaJava /><span className="pl-1">Java</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><FaHtml5 /><span className="pl-1">HTML5</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiCss3 /><span className="pl-1">CSS3</span></div>
@@ -19,16 +19,16 @@ const images = [
                 <div className="flex items-center rounded-md px-1 w-auto "><SiEclipseide /><span className="pl-1">Eclipse</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiOracle /><span className="pl-1">Oracle</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiApachetomcat /><span className="pl-1">Tomcat</span></div>
-            </div>
+            </>
         ),
-        date: "25.03.20 ~ 25.04.08 (5인 프로젝트)",
+        date: "25.07.28 ~ 25.08.18 (5인 프로젝트)",
     },
     {
         src: "./img/test2.jpg",
         caption: "오생꿀 (오늘의 생활 꿀팁)",
         description: "▪ 1인 가구를 위한 생활정보와 거래를 할 수 있는 커뮤니티 ",
         skills: (
-            <div className="flex flex-wrap font-mono text-sm border-[1px] border-teal-500 rounded-md bg-teal-50 my-2">
+            <>
                 <div className="flex items-center px-1 w-auto"><FaJava /><span className="pl-1">Java</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><FaHtml5 /><span className="pl-1">HTML5</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiCss3 /><span className="pl-1">CSS3</span></div>
@@ -36,7 +36,7 @@ const images = [
                 <div className="flex items-center rounded-md px-1 w-auto  "><SiReact /><span className="pl-1">React</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiEclipseide /><span className="pl-1">VS Code</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiSupabase /><span className="pl-1">Supabase</span></div>
-            </div>
+            </>
         ),
         date: "25.05.12 ~ 25.06.30 (5인 프로젝트)",
     },
@@ -45,7 +45,7 @@ const images = [
         caption: "Rocket bookstore",
         description: "▪ JSP를 이용한 도서 주문 사이트",
         skills: (
-            <div className="flex flex-wrap font-mono text-sm border-[1px] border-teal-500 rounded-md bg-teal-50 my-2">
+            <>
                 <div className="flex items-center px-1 w-auto"><FaJava /><span className="pl-1">Java</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><FaHtml5 /><span className="pl-1">HTML5</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiCss3 /><span className="pl-1">CSS3</span></div>
@@ -53,7 +53,7 @@ const images = [
                 <div className="flex items-center rounded-md px-1 w-auto "><SiEclipseide /><span className="pl-1">Eclipse</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiOracle /><span className="pl-1">Oracle</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiApachetomcat /><span className="pl-1">Tomcat</span></div>
-            </div>
+            </>
         ),
         date: "25.03.20 ~ 25.04.08 (5인 프로젝트)",
     },
@@ -79,7 +79,7 @@ const images = [
         caption: "Code Mate",
         description: "그룹을 만들어 코딩 공부를 하는 앱",
         skills: (
-            <div className="flex flex-wrap font-mono text-sm border-[1px] border-teal-500 rounded-md bg-teal-50 my-2">
+            <>
                 <div className="flex items-center px-1 w-auto"><FaJava /><span className="pl-1">Java</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><FaHtml5 /><span className="pl-1">HTML5</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiCss3 /><span className="pl-1">CSS3</span></div>
@@ -87,7 +87,7 @@ const images = [
                 <div className="flex items-center rounded-md px-1 w-auto  "><SiReact /><span className="pl-1">React</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiEclipseide /><span className="pl-1">VS Code</span></div>
                 <div className="flex items-center rounded-md px-1 w-auto "><SiSupabase /><span className="pl-1">Supabase</span></div>
-            </div>
+            </>
         ),
         date: "25.05.12 ~ 25.06.30 (5인 프로젝트)",
     },
@@ -95,14 +95,13 @@ const images = [
 
 
 export function Project() {
-
     return (
         <div className="relative py-5">
-            <h2 className="text-left text-2xl ml-4 font-semibold">Project</h2>
-            <div className="bg-blue-100 my-4 px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            <h2 className="text-center text-6xl ml-4 font-bold">Project</h2>
+            <div className="m-8 px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 {images.map((image, index) => (
-                    <div key={index} className="bg-white relative group rounded-xl m-2 ">
-                        <div className=" bg-white object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-110 cursor-pointer">
+                    <div key={index} className="relative group rounded-xl m-2 border border-orange-300 bg-yellow-50">
+                        <div className=" object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-110 cursor-pointer">
                             <div className="relative">
                                 <img
                                     src={image.src}
@@ -111,7 +110,7 @@ export function Project() {
                                 />
                             </div>
                             <div className="">
-                                <div className="mx-4 bottom-0 bg-teal-100  px-4 py-2 group-hover:opacity-100 first-line:transition-opacity font-semibold rounded-2xl text-center text-gray-800">
+                                <div className="m-4 bottom-0 bg-yellow-200  px-4 py-2 group-hover:opacity-100 first-line:transition-opacity font-semibold rounded-2xl text-center text-gray-800">
                                     {image.caption}
                                 </div>
                                 <div className="my-1 px-4 py-2 bg-gray-100">
@@ -121,7 +120,7 @@ export function Project() {
                         </div>
                         <div className="px-4">
                             {image.date}
-                            {image.skills}
+                            <div className="flex flex-wrap font-mono text-sm border-[1px] border-yellow-500 rounded-md bg-white my-2">{image.skills}</div>
                         </div>
                     </div>
                 ))}

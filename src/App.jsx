@@ -36,7 +36,9 @@ function App() {
         refs={{ homeRef, aboutRef, skillsRef, projectRef }}
       />
       <main>
-        <section ref={homeRef}><Intro /></section>
+        <section ref={homeRef}>
+          <Intro scrollToRef={scrollToRef} projectRef={projectRef} />
+        </section>
         <div className='max-w-screen-xl mx-auto'>
           <section ref={aboutRef}><About /></section>
           <section ref={skillsRef}><Skills /></section>
