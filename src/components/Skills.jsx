@@ -17,10 +17,10 @@ export function Skills() {
                     <div className="ml-8 flex gap-2 text-white font-mono">
                         <div className="flex items-center rounded-md px-2 w-auto bg-java"><FaJava /><span className="pl-1">Java</span></div>
                         <div className="flex items-center rounded-md px-2 py-1 w-auto bg-HTML"><FaHtml5 /><span className="pl-1">HTML5</span></div>
-                        <div className="flex items-center rounded-md px-2 py-1 w-auto bg-CSS"><IoLogoCss3 /><span className="pl-1">CSS3</span></div>   
+                        <div className="flex items-center rounded-md px-2 py-1 w-auto bg-CSS"><IoLogoCss3 /><span className="pl-1">CSS3</span></div>
                         {/* <div className="flex items-center rounded-md px-2 py-1 w-auto bg-Thymeleaf"><SiThymeleaf /><span className="pl-1">Thymeleaf</span></div> */}
                         <div className="flex items-center rounded-md px-2 py-1 w-auto bg-JavaScript text-gray-800"><SiJavascript /><span className="pl-1">Javascript</span></div>
-                        
+
                         <div className="flex items-center rounded-md px-2 py-1 w-auto bg-Dart"><SiDart /><span className="pl-1">Dart</span></div>
                     </div>
                 </div>
@@ -29,8 +29,8 @@ export function Skills() {
                 <div className="flex items-center gap-2 ">
                     <h2 className=" font-semibold text-lg mb-2 text-left w-32">☑️Frontend</h2>
                     <div className="ml-8 flex gap-2 text-white">
-                       <div className="flex items-center rounded-md px-2 py-1 w-auto bg-React"><SiReact /><span className="pl-1">React</span></div>
-                       <div className="flex items-center rounded-md px-2 py-1 w-auto bg-Tailwind"><SiTailwindcss /><span className="pl-1">Tailwind CSS</span></div>
+                        <div className="flex items-center rounded-md px-2 py-1 w-auto bg-React"><SiReact /><span className="pl-1">React</span></div>
+                        <div className="flex items-center rounded-md px-2 py-1 w-auto bg-Tailwind"><SiTailwindcss /><span className="pl-1">Tailwind CSS</span></div>
                         <div className="flex items-center rounded-md px-2 py-1 w-auto bg-Flutter"><FaFlutter /><span className="pl-1">Flutter</span></div>
                     </div>
                 </div>
